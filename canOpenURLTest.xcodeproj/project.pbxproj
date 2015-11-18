@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC4C29AC1BDEF56A00CF0850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C29AB1BDEF56A00CF0850 /* AppDelegate.swift */; };
+		CC4C29AE1BDEF56A00CF0850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C29AD1BDEF56A00CF0850 /* ViewController.swift */; };
+		CC4C29B11BDEF56A00CF0850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C29AF1BDEF56A00CF0850 /* Main.storyboard */; };
+		CC4C29B31BDEF56A00CF0850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4C29B21BDEF56A00CF0850 /* Assets.xcassets */; };
+		CC4C29B61BDEF56A00CF0850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4C29B41BDEF56A00CF0850 /* LaunchScreen.storyboard */; };
+		CC4C29C11BDEF56A00CF0850 /* canOpenURLTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C29C01BDEF56A00CF0850 /* canOpenURLTestTests.swift */; };
+		CC4C29CC1BDEF56A00CF0850 /* canOpenURLTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4C29CB1BDEF56A00CF0850 /* canOpenURLTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC4C29BD1BDEF56A00CF0850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4C29A01BDEF56A00CF0850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4C29A71BDEF56A00CF0850;
+			remoteInfo = canOpenURLTest;
+		};
+		CC4C29C81BDEF56A00CF0850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC4C29A01BDEF56A00CF0850 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4C29A71BDEF56A00CF0850;
+			remoteInfo = canOpenURLTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC4C29A81BDEF56A00CF0850 /* canOpenURLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = canOpenURLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C29AB1BDEF56A00CF0850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC4C29AD1BDEF56A00CF0850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC4C29B01BDEF56A00CF0850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC4C29B21BDEF56A00CF0850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC4C29B51BDEF56A00CF0850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC4C29B71BDEF56A00CF0850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C29BC1BDEF56A00CF0850 /* canOpenURLTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = canOpenURLTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C29C01BDEF56A00CF0850 /* canOpenURLTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canOpenURLTestTests.swift; sourceTree = "<group>"; };
+		CC4C29C21BDEF56A00CF0850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4C29C71BDEF56A00CF0850 /* canOpenURLTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = canOpenURLTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C29CB1BDEF56A00CF0850 /* canOpenURLTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canOpenURLTestUITests.swift; sourceTree = "<group>"; };
+		CC4C29CD1BDEF56A00CF0850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC4C29A51BDEF56A00CF0850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29B91BDEF56A00CF0850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29C41BDEF56A00CF0850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC4C299F1BDEF56A00CF0850 = {
+			isa = PBXGroup;
+			children = (
+				CC4C29AA1BDEF56A00CF0850 /* canOpenURLTest */,
+				CC4C29BF1BDEF56A00CF0850 /* canOpenURLTestTests */,
+				CC4C29CA1BDEF56A00CF0850 /* canOpenURLTestUITests */,
+				CC4C29A91BDEF56A00CF0850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC4C29A91BDEF56A00CF0850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C29A81BDEF56A00CF0850 /* canOpenURLTest.app */,
+				CC4C29BC1BDEF56A00CF0850 /* canOpenURLTestTests.xctest */,
+				CC4C29C71BDEF56A00CF0850 /* canOpenURLTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC4C29AA1BDEF56A00CF0850 /* canOpenURLTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C29AB1BDEF56A00CF0850 /* AppDelegate.swift */,
+				CC4C29AD1BDEF56A00CF0850 /* ViewController.swift */,
+				CC4C29AF1BDEF56A00CF0850 /* Main.storyboard */,
+				CC4C29B21BDEF56A00CF0850 /* Assets.xcassets */,
+				CC4C29B41BDEF56A00CF0850 /* LaunchScreen.storyboard */,
+				CC4C29B71BDEF56A00CF0850 /* Info.plist */,
+			);
+			path = canOpenURLTest;
+			sourceTree = "<group>";
+		};
+		CC4C29BF1BDEF56A00CF0850 /* canOpenURLTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C29C01BDEF56A00CF0850 /* canOpenURLTestTests.swift */,
+				CC4C29C21BDEF56A00CF0850 /* Info.plist */,
+			);
+			path = canOpenURLTestTests;
+			sourceTree = "<group>";
+		};
+		CC4C29CA1BDEF56A00CF0850 /* canOpenURLTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C29CB1BDEF56A00CF0850 /* canOpenURLTestUITests.swift */,
+				CC4C29CD1BDEF56A00CF0850 /* Info.plist */,
+			);
+			path = canOpenURLTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC4C29A71BDEF56A00CF0850 /* canOpenURLTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C29D01BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTest" */;
+			buildPhases = (
+				CC4C29A41BDEF56A00CF0850 /* Sources */,
+				CC4C29A51BDEF56A00CF0850 /* Frameworks */,
+				CC4C29A61BDEF56A00CF0850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = canOpenURLTest;
+			productName = canOpenURLTest;
+			productReference = CC4C29A81BDEF56A00CF0850 /* canOpenURLTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC4C29BB1BDEF56A00CF0850 /* canOpenURLTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C29D31BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTestTests" */;
+			buildPhases = (
+				CC4C29B81BDEF56A00CF0850 /* Sources */,
+				CC4C29B91BDEF56A00CF0850 /* Frameworks */,
+				CC4C29BA1BDEF56A00CF0850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C29BE1BDEF56A00CF0850 /* PBXTargetDependency */,
+			);
+			name = canOpenURLTestTests;
+			productName = canOpenURLTestTests;
+			productReference = CC4C29BC1BDEF56A00CF0850 /* canOpenURLTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC4C29C61BDEF56A00CF0850 /* canOpenURLTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4C29D61BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTestUITests" */;
+			buildPhases = (
+				CC4C29C31BDEF56A00CF0850 /* Sources */,
+				CC4C29C41BDEF56A00CF0850 /* Frameworks */,
+				CC4C29C51BDEF56A00CF0850 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC4C29C91BDEF56A00CF0850 /* PBXTargetDependency */,
+			);
+			name = canOpenURLTestUITests;
+			productName = canOpenURLTestUITests;
+			productReference = CC4C29C71BDEF56A00CF0850 /* canOpenURLTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC4C29A01BDEF56A00CF0850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tetsuya Shiraishi";
+				TargetAttributes = {
+					CC4C29A71BDEF56A00CF0850 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					CC4C29BB1BDEF56A00CF0850 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CC4C29A71BDEF56A00CF0850;
+					};
+					CC4C29C61BDEF56A00CF0850 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = CC4C29A71BDEF56A00CF0850;
+					};
+				};
+			};
+			buildConfigurationList = CC4C29A31BDEF56A00CF0850 /* Build configuration list for PBXProject "canOpenURLTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC4C299F1BDEF56A00CF0850;
+			productRefGroup = CC4C29A91BDEF56A00CF0850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4C29A71BDEF56A00CF0850 /* canOpenURLTest */,
+				CC4C29BB1BDEF56A00CF0850 /* canOpenURLTestTests */,
+				CC4C29C61BDEF56A00CF0850 /* canOpenURLTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC4C29A61BDEF56A00CF0850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C29B61BDEF56A00CF0850 /* LaunchScreen.storyboard in Resources */,
+				CC4C29B31BDEF56A00CF0850 /* Assets.xcassets in Resources */,
+				CC4C29B11BDEF56A00CF0850 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29BA1BDEF56A00CF0850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29C51BDEF56A00CF0850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC4C29A41BDEF56A00CF0850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C29AE1BDEF56A00CF0850 /* ViewController.swift in Sources */,
+				CC4C29AC1BDEF56A00CF0850 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29B81BDEF56A00CF0850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C29C11BDEF56A00CF0850 /* canOpenURLTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC4C29C31BDEF56A00CF0850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC4C29CC1BDEF56A00CF0850 /* canOpenURLTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC4C29BE1BDEF56A00CF0850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4C29A71BDEF56A00CF0850 /* canOpenURLTest */;
+			targetProxy = CC4C29BD1BDEF56A00CF0850 /* PBXContainerItemProxy */;
+		};
+		CC4C29C91BDEF56A00CF0850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC4C29A71BDEF56A00CF0850 /* canOpenURLTest */;
+			targetProxy = CC4C29C81BDEF56A00CF0850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC4C29AF1BDEF56A00CF0850 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4C29B01BDEF56A00CF0850 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC4C29B41BDEF56A00CF0850 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC4C29B51BDEF56A00CF0850 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC4C29CE1BDEF56A00CF0850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC4C29CF1BDEF56A00CF0850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC4C29D11BDEF56A00CF0850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = canOpenURLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC4C29D21BDEF56A00CF0850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = canOpenURLTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC4C29D41BDEF56A00CF0850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = canOpenURLTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/canOpenURLTest.app/canOpenURLTest";
+			};
+			name = Debug;
+		};
+		CC4C29D51BDEF56A00CF0850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = canOpenURLTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/canOpenURLTest.app/canOpenURLTest";
+			};
+			name = Release;
+		};
+		CC4C29D71BDEF56A00CF0850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = canOpenURLTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = canOpenURLTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC4C29D81BDEF56A00CF0850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = canOpenURLTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mushikago.canOpenURLTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = canOpenURLTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC4C29A31BDEF56A00CF0850 /* Build configuration list for PBXProject "canOpenURLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C29CE1BDEF56A00CF0850 /* Debug */,
+				CC4C29CF1BDEF56A00CF0850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4C29D01BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C29D11BDEF56A00CF0850 /* Debug */,
+				CC4C29D21BDEF56A00CF0850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4C29D31BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C29D41BDEF56A00CF0850 /* Debug */,
+				CC4C29D51BDEF56A00CF0850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC4C29D61BDEF56A00CF0850 /* Build configuration list for PBXNativeTarget "canOpenURLTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4C29D71BDEF56A00CF0850 /* Debug */,
+				CC4C29D81BDEF56A00CF0850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC4C29A01BDEF56A00CF0850 /* Project object */;
+}
