@@ -14,15 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        for (var scheme = 0; scheme < 100; scheme++){
-            self.schemeAvailable("\(scheme)://")
+        for scheme in (0 ..< 100) {
+            print(self.schemeAvailable("\(scheme)://"))
 //            self.schemeAvailable("fb://")
         }
     }
 
-    func schemeAvailable(scheme: String) -> Bool {
-        if let url = NSURL.init(string: scheme) {
-            return UIApplication.sharedApplication().canOpenURL(url)
+    func schemeAvailable(_ scheme: String) -> Bool {
+        if let url = URL.init(string: scheme) {
+            return UIApplication.shared.canOpenURL(url)
         }
         return false
     }
